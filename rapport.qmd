@@ -33,7 +33,9 @@ Pkg.add("NLPModelsIpopt")
 Pkg.add("Ipopt")
 
 using LinearAlgebra
-using ADNLPModels, NLPModels, NLPModelsIpopt, Ipopt
+Pkg.add("PrettyTables")
+using ADNLPModels, NLPModels, NLPModelsIpopt, Ipopt, PrettyTables
+using Printf
 ```
 
 # Contexte
